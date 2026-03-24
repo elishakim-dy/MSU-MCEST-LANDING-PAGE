@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MSU-MCEST Landing Page</title>
+
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: Arial, sans-serif;
+    }
+
+    body {
+        line-height: 1.6;
+        background-color: #ffffff;
+        color: #333;
+    }
+
+    header {
+        background: #800000;
+        color: white;
+        padding: 15px 50px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    nav a {
+        color: white;
+        margin-left: 20px;
+        text-decoration: none;
+    }
+
+    nav a:hover {
+        text-decoration: underline;
+    }
+
+    .hero {
+        height: 90vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        background: #f4f4f4;
+    }
+
+    .hero h2 {
+        font-size: 40px;
+        color: #800000;
+        text-shadow: 2px 2px 5px rgba(0,0,0,0.2);
+    }
+
+    .hero p {
+        color: #333;
+        font-size: 18px;
+        margin-top: 10px;
+    }
+
+    .btn {
+        margin-top: 20px;
+        padding: 12px 25px;
+        background: #ffcc00;
+        border: none;
+        cursor: pointer;
+        font-weight: bold;
+        border-radius: 5px;
+    }
+
+    .btn:hover {
+        background: #e6b800;
+    }
+
+    section {
+        padding: 50px;
+        text-align: center;
+    }
+
+    .about {
+        background: #f4f4f4;
+    }
+
+    .programs {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .card {
+        background: white;
+        padding: 20px;
+        width: 250px;
+        margin: 10px;
+        box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        border-radius: 10px;
+    }
+
+    .card:hover {
+        transform: translateY(-5px);
+        transition: 0.3s;
+    }
+
+    footer {
+        background: #333;
+        color: white;
+        text-align: center;
+        padding: 20px;
+    }
+
+    .hero {
+    height: 90vh;
+    background: url("mcest.jfif") no-repeat center center;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
+
+.hero .content-box {
+    background: rgba(255, 255, 255, 0.85);
+    padding: 30px;
+    border-radius: 10px;
+    max-width: 600px;
+}
+
+.hero h2 {
+    font-size: 40px;
+    color: #800000;
+}
+
+.hero p {
+    color: #333;
+    margin-top: 10px;
+}
+
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>MSU-MCEST</h1>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Programs</a>
+        <a href="http://msumcest.edu.ph/index.php" target="_blank">Official Site</a>
+    </nav>
+</header>
+
+<section class="hero">
+    <div class="content-box">
+        <h2>Your First Choice for Quality Education</h2>
+        <p>Empowering students through innovation and excellence.</p>
+
+        <a href="http://msumcest.edu.ph/index.php" target="_blank">
+            <button class="btn">Visit MSU-MCEST Website</button>
+        </a>
+    </div>
+</section>
+
+<section class="about">
+    <h2>About Us</h2>
+    <p>
+        MSU-MCEST is a premier public institution in Maigo, Lanao del Norte,
+        focused on science, technology, and innovation.
+    </p>
+</section>
+
+<section>
+    <h2>Our Programs</h2>
+    <div class="programs">
+
+        <div class="card" style="background:#e3f2fd;">
+            <h3>💻 BS Computer Science</h3>
+            <p>Learn programming and system development.</p>
+        </div>
+
+        <div class="card" style="background:#fce4ec;">
+            <h3>👮 BS Criminology</h3>
+            <p>Prepare for law enforcement careers.</p>
+        </div>
+
+        <div class="card" style="background:#e8f5e9;">
+            <h3>🏨 BS Hospitality Management</h3>
+            <p>Develop skills in tourism and service management.</p>
+        </div>
+
+        <div class="card" style="background:#fff3e0;">
+            <h3>📚 Bachelor of Elementary Education</h3>
+            <p>Prepare for a career in teaching and shaping young minds.</p>
+        </div>
+
+        <div class="card" style="background:#ede7f6;">
+            <h3>🛠 Bachelor of Technology and Livelihood Education</h3>
+            <p>Develop practical and technical teaching skills for livelihood education.</p>
+        </div>
+
+        <div class="card" style="background:#e0f7fa;">
+            <h3>🏭 BS in Industrial Technology</h3>
+            <p>Gain hands-on skills in industrial and technical fields.</p>
+        </div>
+
+        <div class="card" style="background:#f1f8e9;">
+            <h3>🤝 BS in Social Work</h3>
+            <p>Learn to support communities and improve social welfare.</p>
+        </div>
+
+    </div>
+</section>
+
+<section class="about">
+    <h2>Contact</h2>
+    <p>📍 Maigo, Lanao del Norte</p>
+    <p>📞 +63 935 806 6913</p>
+    <p>✉ secretary.msat@msu.edu.ph</p>
+</section>
+
+<footer>
+    <p>© 2026 MSU-MCEST | All Rights Reserved</p>
+</footer>
+
+</body>
+</html>
